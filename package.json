@@ -8,8 +8,20 @@
   },
   "author": "Winnerezy",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winnerezy/logwin"
+  },
+  "keywords": [
+    "logger",
+    "node",
+    "npm-package",
+    "open-source"
+  ],
   "dependencies": {
+    "@types/express": "^5.0.0",
     "express": "^4.21.2",
     "typescript": "^5.7.2"
-  }
+  },
+  "homepage": "https://github.com/winnerezy/logwin#README"
 }
