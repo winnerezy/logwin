@@ -1,0 +1,15 @@
+{
+  "name": "logwin",
+  "version": "1.0.0",
+  "description": "A simle but efficient logger",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bunx tsc"
+  },
+  "author": "Winnerezy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "typescript": "^5.7.2"
+  }
+}
