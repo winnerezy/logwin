@@ -2,12 +2,12 @@
   "name": "logwin",
   "version": "1.0.0",
   "description": "A simle but efficient logger",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "start": "bunx tsc"
+    "start": "node index.js"
   },
   "author": "Winnerezy",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/winnerezy/logwin"
@@ -16,11 +16,37 @@
     "logger",
     "node",
     "npm-package",
-    "open-source"
+    "open-source",
+    "logging",
+    "log",
+    "nodejs",
+    "typescript",
+    "javascript",
+    "middleware",
+    "express",
+    "http-logging",
+    "error-handling",
+    "debug",
+    "console",
+    "file-logging",
+    "structured-logging",
+    "performance-monitoring",
+    "log-levels",
+    "dev-tools",
+    "request-logging",
+    "server-logging",
+    "monitoring",
+    "diagnostics",
+    "observability",
+    "custom-logger",
+    "log-rotation",
+    "json-logging",
+    "event-logging"
   ],
   "dependencies": {
     "@types/express": "^5.0.0",
     "express": "^4.21.2",
+    "logwin": "file:",
     "typescript": "^5.7.2"
   },
   "homepage": "https://github.com/winnerezy/logwin#README"

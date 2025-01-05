@@ -1,6 +1,10 @@
-import { NextFunction, Request, Response } from "express";
-
-export default function logwin(req: Request, res: Response, next?: NextFunction){
+/**
+ * 
+ * @param {import('express').Request} req 
+ * @param {import('express').Response} res 
+ * @param {import('express').NextFunction | undefined} next 
+ */
+export default function logwin(req, res, next){
 
   const errorCodes = [500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511];
 
@@ -20,3 +24,6 @@ export default function logwin(req: Request, res: Response, next?: NextFunction)
   })
   next && next()
 }
+
+
+
