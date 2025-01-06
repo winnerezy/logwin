@@ -1,10 +1,10 @@
 {
   "name": "logwin",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simle but efficient logger",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "bunx tsc index.ts"
   },
   "author": "Winnerezy",
   "license": "MIT",
@@ -43,6 +43,7 @@
     "json-logging",
     "event-logging"
   ],
+  "types": "./types/types.d.ts",
   "dependencies": {
     "@types/express": "^5.0.0",
     "express": "^4.21.2",
