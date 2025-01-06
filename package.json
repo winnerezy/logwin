@@ -4,7 +4,7 @@
   "description": "A simle but efficient logger",
   "main": "index.js",
   "scripts": {
-    "start": "bunx tsc index.ts"
+    "start": "npx tsc index.ts"
   },
   "author": "Winnerezy",
   "license": "MIT",
