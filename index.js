@@ -10,8 +10,8 @@ function logwin(req, res, next) {
             route: req.url,
             method: req.method,
             statusCode: res.statusCode,
-            time: "".concat(finish - start, "ms"),
-            duration: new Date(),
+            duration: `${finish} - ${start} "ms"`,
+            time: new Date(),
             ip: req.ip,
             "user-agent": req.header("user-agent"),
             error: errorCodes.includes(res.statusCode) ? res.statusMessage : null
