@@ -1,7 +1,7 @@
 {
   "name": "logwin",
-  "version": "1.0.5",
-  "description": "A simle but efficient logger",
+  "version": "1.0.6",
+  "description": "A simple but efficient logger",
   "main": "index.js",
   "scripts": {
     "start": "npx tsc index.ts"
